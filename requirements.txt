@@ -1,4 +1,3 @@
-raw2mzml
 pymzml
 numpy
 matplotlib

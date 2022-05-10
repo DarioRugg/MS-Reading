@@ -1,0 +1,4 @@
+docker container create --name dummy -v myvolume:/volume hello-world
+docker cp .\data\. dummy:/volume/.
+# docker cp dummy:/volume/. .\data\.
+docker rm dummy
