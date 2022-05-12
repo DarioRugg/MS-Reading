@@ -1,3 +1,4 @@
 pymzml
 numpy
 matplotlib
+plotly
