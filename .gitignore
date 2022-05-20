@@ -128,7 +128,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-/data/*
-!/data/TQ8_201023SJ01_0103.mzML
+/data/
 /protienwizard_installer/
 /examples/*.html
