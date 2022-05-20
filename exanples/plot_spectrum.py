@@ -22,7 +22,7 @@ def main():
     )
     run = pymzml.run.Reader(example_file)
     p = pymzml.plot.Factory()
-    for spec in list(run)[5:15]:
+    for spec in list(run)[6000:6003]:
         p.new_plot()
         # p.add(spec.peaks("raw"), color=(0, 0, 0), style="sticks", name="peaks")
         p.add(list(zip(spec.mz, spec.i)), color=(0, 0, 0), style="sticks", name="peaks")

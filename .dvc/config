@@ -1,0 +1,4 @@
+[core]
+    remote = ms-reading_remote
+['remote "ms-reading_remote"']
+    url = https://dagshub.com/DarioRugg/ms-reading.dvc
