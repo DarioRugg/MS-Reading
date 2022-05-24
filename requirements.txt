@@ -2,3 +2,4 @@ pymzml
 numpy
 matplotlib
 plotly
+jupyter

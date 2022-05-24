@@ -24,7 +24,7 @@ def main():
     p = pymzml.plot.Factory()
     for spec in list(run)[6000:6003]:
         p.new_plot()
-        # p.add(spec.peaks("raw"), color=(0, 0, 0), style="sticks", name="peaks")
+        # p.add(cumulative_spec.peaks("raw"), color=(0, 0, 0), style="sticks", name="peaks")
         p.add(list(zip(spec.mz, spec.i)), color=(0, 0, 0), style="sticks", name="peaks")
         filename = "example_plot_{0}_{1}.html".format(
             os.path.basename(example_file), spec.ID
