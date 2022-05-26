@@ -2,6 +2,5 @@ pymzml
 numpy
 matplotlib
 plotly
-peakutils
 jupyter
 dvc
